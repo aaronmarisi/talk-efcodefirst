@@ -1,0 +1,13 @@
+﻿.no-label {
+    margin-top: 24px;
+}
+
+.id-col {
+    display: none;
+}
+
+.summary-panel h1 span {
+    width: 260px;
+    text-align: right;
+    display: inline-block;
+}

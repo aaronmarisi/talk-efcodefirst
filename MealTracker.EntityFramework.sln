@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealTracker.Web", "MealTracker.EntityFramework\MealTracker.Web.csproj", "{72B8361B-B00B-4C89-B211-3D556EAB8036}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EC8032FE-C146-4801-A5E1-DE227E8AA770}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealTracker.Models", "MealTracker.Models\MealTracker.Models.csproj", "{C073883B-20B6-479F-81FA-764FAF689FF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealTracker.Services", "MealTracker.Services\MealTracker.Services.csproj", "{1A942C84-7497-4A10-8D63-C5FAC9965679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealTracker.Repositories", "MealTracker.Respositories\MealTracker.Repositories.csproj", "{A8944778-3D8A-4020-853E-7FA37E8B8133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealTracker.DataAccess", "MealTracker.DataAccess\MealTracker.DataAccess.csproj", "{5E99D7BF-DE20-48EA-B613-CD511D4FCD37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B8361B-B00B-4C89-B211-3D556EAB8036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B8361B-B00B-4C89-B211-3D556EAB8036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B8361B-B00B-4C89-B211-3D556EAB8036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B8361B-B00B-4C89-B211-3D556EAB8036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C073883B-20B6-479F-81FA-764FAF689FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C073883B-20B6-479F-81FA-764FAF689FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C073883B-20B6-479F-81FA-764FAF689FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C073883B-20B6-479F-81FA-764FAF689FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A942C84-7497-4A10-8D63-C5FAC9965679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A942C84-7497-4A10-8D63-C5FAC9965679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A942C84-7497-4A10-8D63-C5FAC9965679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A942C84-7497-4A10-8D63-C5FAC9965679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8944778-3D8A-4020-853E-7FA37E8B8133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8944778-3D8A-4020-853E-7FA37E8B8133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8944778-3D8A-4020-853E-7FA37E8B8133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8944778-3D8A-4020-853E-7FA37E8B8133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E99D7BF-DE20-48EA-B613-CD511D4FCD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E99D7BF-DE20-48EA-B613-CD511D4FCD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E99D7BF-DE20-48EA-B613-CD511D4FCD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E99D7BF-DE20-48EA-B613-CD511D4FCD37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
